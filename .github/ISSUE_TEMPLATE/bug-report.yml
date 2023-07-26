@@ -27,7 +27,7 @@ body:
       render: text
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
       label: Screenshots
       description: >-
