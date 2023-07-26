@@ -3,6 +3,8 @@ description: >-
   This is the official issue template. Please fill this form out with much
   details as possible in order for us to rectify any issues sooner.
 title: '[Bug Report]: (Describe the issue in short form.)'
+assignees:
+  - RediPanda
 body:
   - type: input
     attributes:
