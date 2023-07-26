@@ -1,0 +1,42 @@
+name: Bug report
+description: >-
+  This is the official issue template. Please fill this form out with much
+  details as possible in order for us to rectify any issues sooner.
+title: '[Bug Report]: (Describe the issue in short form.)'
+body:
+  - type: input
+    attributes:
+      label: Expected Behaviour
+      description: What is the expected behaviour of the page/action?
+      placeholder: The dashboard page must show all the servers I own!
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Final Outcome
+      description: What happened instead?
+      placeholder: It showed a blank page!
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce Issue
+      description: Provide us a step-by-step guide on how to re-create this issue.
+      render: text
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Screenshots
+      description: >-
+        Can you provide any screenshots/video to provide us a deeper insight
+        into the issue?
+      placeholder: https://imgur.com
+  - type: input
+    attributes:
+      label: Web Origin
+      description: >-
+        Could you provide us which web server you were connected to? You can
+        find this out by scrolling to the bottom and copying/pasting the web
+        text.
+      placeholder: panel-01
